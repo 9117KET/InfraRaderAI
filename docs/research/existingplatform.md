@@ -1,33 +1,37 @@
 Yes — there are several existing platforms, firms, reports, research projects, etc., that are doing something similar (or parts of what you want) to your business-intelligence idea for global infrastructure/construction projects. Some cover a few of the features you plan, others are good inspiration or competitors. I’ll list them with strengths & gaps versus your vision.
 
 1. Existing Players / Competitors
-Name	What they do that's similar	Gaps vs what you want (AI + visualization + full pipeline)
-Taiyō.AI	A platform aggregating & standardizing thousands of global infrastructure data sources to inform opportunities, risks etc. 
-taiyo.ai
-+1
-	Might not yet have full automation with AI agents, especially verification via satellite or truly custom visualization / predictive modeling. UI/UX, transparency, verification details may be more limited.
-Fitch Solutions – Infrastructure Key Projects Data	Huge database of 40,000+ infrastructure/construction projects globally. Has risk metrics, status, sector, geography, etc. 
-Fitch Solutions
-	Likely more static, less “real-time” or less automated AI verification; likely less visual/dynamic in terms of satellite imagery, comparative analytics or dashboard interactivity.
-Infralogic	Provides real-time alerts and data on live deals, future transactions and market intelligence; profiling industry participants. 
-Infralogic
-	Probably focuses more on the finance / deal side; less on visual progress tracking; maybe less robust in verifying status via alternate data or providing deep predictive analytics.
-Building Radar	Uses global construction project data + AI to help manufacturers & suppliers track developments, prioritize leads, identify decision-makers. 
-buildingradar.com
-	More oriented toward sales / supplier side rather than full project verification, mapping, stakeholder networks, or predictive timelines. Less emphasis (publicly) on visual progress tracking (e.g. via satellite).
-Sitetracker	Platform for managing critical infrastructure — planning, building, operating & maintaining with analytics and workflows. 
-Sitetracker
-	More focused on asset lifecycle / project management for known projects; less about discovering new projects globally, verifying via external sources, or global monitoring from news / satellite.
-Project / Construction PM Tools (Procore, Buildertrend, etc.)	These help with scheduling, cost tracking, onsite management etc. Useful for execution. 
-Mercator.ai
-+1
-	These do not generally focus on project discovery, global pipeline, cross-source verification, geospatial mapping beyond onsite, or predictive analytics in the way you outline.
-2. Research / Academic Projects
+   Name What they do that's similar Gaps vs what you want (AI + visualization + full pipeline)
+   Taiyō.AI A platform aggregating & standardizing thousands of global infrastructure data sources to inform opportunities, risks etc.
+   taiyo.ai
+   +1
+   Might not yet have full automation with AI agents, especially verification via satellite or truly custom visualization / predictive modeling. UI/UX, transparency, verification details may be more limited.
+   Fitch Solutions – Infrastructure Key Projects Data Huge database of 40,000+ infrastructure/construction projects globally. Has risk metrics, status, sector, geography, etc.
+   Fitch Solutions
+   Likely more static, less “real-time” or less automated AI verification; likely less visual/dynamic in terms of satellite imagery, comparative analytics or dashboard interactivity.
+   Infralogic Provides real-time alerts and data on live deals, future transactions and market intelligence; profiling industry participants.
+   Infralogic
+   Probably focuses more on the finance / deal side; less on visual progress tracking; maybe less robust in verifying status via alternate data or providing deep predictive analytics.
+   Building Radar Uses global construction project data + AI to help manufacturers & suppliers track developments, prioritize leads, identify decision-makers.
+   buildingradar.com
+   More oriented toward sales / supplier side rather than full project verification, mapping, stakeholder networks, or predictive timelines. Less emphasis (publicly) on visual progress tracking (e.g. via satellite).
+   Sitetracker Platform for managing critical infrastructure — planning, building, operating & maintaining with analytics and workflows.
+   Sitetracker
+   More focused on asset lifecycle / project management for known projects; less about discovering new projects globally, verifying via external sources, or global monitoring from news / satellite.
+   Project / Construction PM Tools (Procore, Buildertrend, etc.) These help with scheduling, cost tracking, onsite management etc. Useful for execution.
+   Mercator.ai
+   +1
+   These do not generally focus on project discovery, global pipeline, cross-source verification, geospatial mapping beyond onsite, or predictive analytics in the way you outline.
 
-OGNet — creating a global oil & gas infrastructure database using remote imagery + deep learning. 
+MEED & GlobalData Sector intelligence distribution via WhatsApp Channels (Industrials, Consumer, Finance, Strategic Intelligence) across MEA & APAC; fast audience reach with QR onboarding and push notifications.
+MEED / GlobalData
++1
+Distribution-first (feed) rather than an interactive product; limited predictive analytics, verification transparency, or geospatial visualization; dependency on third-party platform algorithms for reach and engagement. 2. Research / Academic Projects
+
+OGNet — creating a global oil & gas infrastructure database using remote imagery + deep learning.
 arXiv
 
-SpaceNet / Multi-Temporal Urban Development Datasets — focused on detecting building construction vs. demolition via satellite/remote sensing. Useful pieces of what you want. 
+SpaceNet / Multi-Temporal Urban Development Datasets — focused on detecting building construction vs. demolition via satellite/remote sensing. Useful pieces of what you want.
 arXiv
 
 These show that tech exists (or is under development) for e.g. detecting physical infrastructure development, even in remote places, via imagery + AI. But such research tends to be more narrowly scoped, less productionized, and less integrated with e.g. market / financial / stakeholder data.
@@ -37,6 +41,7 @@ These show that tech exists (or is under development) for e.g. detecting physica
 Data depth & breadth: Companies like Fitch & Taiyō already cover many projects, countries, sectors. Valuable to see how they source, normalize, and categorize.
 
 Alerts & lead tools: Infralogic, Building Radar, etc. provide early-warning / lead generation tools.
+High-velocity distribution: MEED & GlobalData show how sectorized, mobile-first channels can capture attention quickly; emulate speed with owned in-app/email/API alerts, not platform-dependent feeds.
 
 Lifecycle & asset management: Sitetracker shows what’s possible for project execution, operations, maintenance.
 
@@ -55,5 +60,11 @@ Visualization & UI experience: Interactive, dynamic dashboards, geospatial visua
 Predictive analytics: Forecast project delays, budget overruns, likelihood of project cancellation, etc.
 
 Transparency & trust scoring: Indicating how confident the data is, source attribution, maybe community reporting / crowdsourced verification.
+
+Counter-Positioning vs MEED & GlobalData
+
+- Elevate distribution into a product: interactive dashboards, geospatial verification, predictive risk scoring, explainable insights.
+- Personalize delivery: sector/geo/stage segmentation and user-level alert controls; expose API/webhooks for enterprise integration.
+- Maintain optional parity: provide optional WhatsApp relays of executive summaries while keeping core experience in owned channels.
 
 Real­-time or near real-time updates, especially for early stages (permits, bidding, land acquisition) before “projects” are officially announced.
