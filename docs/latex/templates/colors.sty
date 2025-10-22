@@ -1,0 +1,98 @@
+% InfraRader AI - Color Scheme
+% Professional color palette for business documentation
+% Version 1.0
+
+% Primary Colors
+\definecolor{infraradar@primary}{RGB}{0, 102, 204}      % Deep Blue - Trust, Intelligence
+\definecolor{infraradar@secondary}{RGB}{51, 153, 255}   % Light Blue - Innovation, Technology
+\definecolor{infraradar@accent}{RGB}{255, 102, 0}       % Orange - Energy, Action
+\definecolor{infraradar@success}{RGB}{0, 153, 51}      % Green - Success, Growth
+\definecolor{infraradar@warning}{RGB}{255, 153, 0}     % Amber - Caution, Attention
+\definecolor{infraradar@danger}{RGB}{204, 0, 0}        % Red - Risk, Critical
+
+% Neutral Colors
+\definecolor{infraradar@dark}{RGB}{25, 25, 25}          % Dark Gray - Headers, Text
+\definecolor{infraradar@medium}{RGB}{102, 102, 102}     % Medium Gray - Secondary Text
+\definecolor{infraradar@light}{RGB}{245, 245, 245}     % Light Gray - Backgrounds
+\definecolor{infraradar@text}{RGB}{60, 60, 60}         % Text Gray - Body Text
+\definecolor{infraradar@white}{RGB}{255, 255, 255}     % White - Clean backgrounds
+
+% Semantic Colors
+\definecolor{infraradar@revenue}{RGB}{0, 128, 64}      % Revenue Green
+\definecolor{infraradar@cost}{RGB}{204, 0, 0}          % Cost Red
+\definecolor{infraradar@profit}{RGB}{0, 102, 204}       % Profit Blue
+\definecolor{infraradar@risk}{RGB}{255, 102, 0}        % Risk Orange
+
+% Chart Colors (for data visualization)
+\definecolor{chart@1}{RGB}{0, 102, 204}                % Primary Blue
+\definecolor{chart@2}{RGB}{255, 102, 0}                 % Orange
+\definecolor{chart@3}{RGB}{0, 153, 51}                 % Green
+\definecolor{chart@4}{RGB}{153, 51, 255}                % Purple
+\definecolor{chart@5}{RGB}{255, 153, 0}                % Yellow
+\definecolor{chart@6}{RGB}{204, 0, 102}                % Pink
+\definecolor{chart@7}{RGB}{0, 153, 153}                % Teal
+\definecolor{chart@8}{RGB}{153, 102, 0}                 % Brown
+
+% Status Colors
+\definecolor{status@active}{RGB}{0, 153, 51}           % Active/Completed
+\definecolor{status@pending}{RGB}{255, 153, 0}         % Pending/In Progress
+\definecolor{status@blocked}{RGB}{204, 0, 0}           % Blocked/Issues
+\definecolor{status@planned}{RGB}{102, 102, 102}       % Planned/Future
+
+% Infrastructure Sector Colors
+\definecolor{sector@datacenter}{RGB}{0, 102, 204}      % Datacenters - Blue
+\definecolor{sector@transport}{RGB}{255, 102, 0}        % Transport - Orange
+\definecolor{sector@energy}{RGB}{0, 153, 51}           % Energy - Green
+\definecolor{sector@water}{RGB}{0, 153, 255}           % Water - Light Blue
+\definecolor{sector@telecom}{RGB}{153, 51, 255}        % Telecom - Purple
+\definecolor{sector@housing}{RGB}{204, 102, 0}         % Housing - Brown
+
+% Geographic Region Colors
+\definecolor{region@mena}{RGB}{0, 102, 204}            % MENA - Primary Blue
+\definecolor{region@africa}{RGB}{0, 153, 51}           % Africa - Green
+\definecolor{region@gcc}{RGB}{255, 102, 0}             % GCC - Orange
+\definecolor{region@europe}{RGB}{102, 102, 102}        % Europe - Gray
+\definecolor{region@americas}{RGB}{204, 0, 0}          % Americas - Red
+
+% Priority Levels
+\definecolor{priority@critical}{RGB}{204, 0, 0}        % Critical - Red
+\definecolor{priority@high}{RGB}{255, 102, 0}          % High - Orange
+\definecolor{priority@medium}{RGB}{255, 153, 0}        % Medium - Yellow
+\definecolor{priority@low}{RGB}{0, 153, 51}           % Low - Green
+
+% Confidence Levels
+\definecolor{confidence@high}{RGB}{0, 153, 51}         % High Confidence - Green
+\definecolor{confidence@medium}{RGB}{255, 153, 0}      % Medium Confidence - Yellow
+\definecolor{confidence@low}{RGB}{204, 0, 0}          % Low Confidence - Red
+\definecolor{confidence@unknown}{RGB}{102, 102, 102}   % Unknown - Gray
+
+% Custom color commands for easy access
+\newcommand{\primarycolor}{\color{infraradar@primary}}
+\newcommand{\secondarycolor}{\color{infraradar@secondary}}
+\newcommand{\accentcolor}{\color{infraradar@accent}}
+\newcommand{\successcolor}{\color{infraradar@success}}
+\newcommand{\warningcolor}{\color{infraradar@warning}}
+\newcommand{\dangercolor}{\color{infraradar@danger}}
+
+% Text color commands
+\newcommand{\primarytext}{\textcolor{infraradar@primary}}
+\newcommand{\secondarytext}{\textcolor{infraradar@secondary}}
+\newcommand{\accenttext}{\textcolor{infraradar@accent}}
+\newcommand{\successtext}{\textcolor{infraradar@success}}
+\newcommand{\warningtext}{\textcolor{infraradar@warning}}
+\newcommand{\dangertext}{\textcolor{infraradar@danger}}
+
+% Background color commands
+\newcommand{\primarybg}{\colorbox{infraradar@primary}}
+\newcommand{\secondarybg}{\colorbox{infraradar@secondary}}
+\newcommand{\accentbg}{\colorbox{infraradar@accent}}
+\newcommand{\lightbg}{\colorbox{infraradar@light}}
+
+% Highlighting commands
+\newcommand{\highlight}[1]{\textcolor{infraradar@accent}{\textbf{#1}}}
+\newcommand{\emphasize}[1]{\textcolor{infraradar@primary}{\textbf{#1}}}
+\newcommand{\success}[1]{\textcolor{infraradar@success}{\textbf{#1}}}
+\newcommand{\warning}[1]{\textcolor{infraradar@warning}{\textbf{#1}}}
+\newcommand{\danger}[1]{\textcolor{infraradar@danger}{\textbf{#1}}}
+
+\endinput
